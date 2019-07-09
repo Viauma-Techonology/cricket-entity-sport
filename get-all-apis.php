@@ -12,7 +12,7 @@ class Entity_cricket extends Entity
     #for get data for perticular season call get_seasons_data($sid,$args)...$sid eg- 2018,201819 etc.
     public static function get_seasons_data($sid=0 ,$args=array()){
         if(!empty($sid)){
-            $path = "season/$sid/competitions";
+            $path = "seasons/$sid/competitions";
         }else{
             $path = "seasons";
         }
